@@ -14,7 +14,6 @@ def BillingMenu():
             self.master.maxsize(768, 520)
             self.master.minsize(768, 520)
             self.master.title('Billing System')
-            self.master.iconbitmap(r'icon.ico')
 
         def menu_widgets(self):
             IdVar = tk.StringVar()
