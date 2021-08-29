@@ -11,7 +11,7 @@ class App:
       self.master.minsize(520,360)
       self.master.maxsize(520,360)
       self.master.title('Arrange Files')
-      self.master.iconbitmap('icon.ico')
+
    def widgets(self):
       self.path = StringVar()
       self.result = StringVar()
