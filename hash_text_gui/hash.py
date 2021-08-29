@@ -10,7 +10,6 @@ class App(Frame):
         self.master.minsize(380,220)
         self.master.maxsize(380,220)
         self.master.title('Hash Text')
-        self.master.iconbitmap('icon.ico')
         self.master.configure(bg='steelblue3')
     def widgets(self):
         self.plain = StringVar()
