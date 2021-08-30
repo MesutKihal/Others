@@ -24,12 +24,12 @@ class App:
         ext.set(".jpg")
         def encode():
             qr = qrcode.make(text_to_encode.get())
-            qr.save(f"{img_name.get()}.{ext.get()}")
+            qr.save(f"{img_name.get()}{ext.get()}")
             
         self.encode_btn = tk.Button(self.master, text="Generate", font="courier 14 bold", fg="white", bg="purple3", command=encode).place(x=125,y=140)
 
 qr_app = App()
 qr_app.settings()
 qr_app.widgets()
-
+tk.mainloop()
 
