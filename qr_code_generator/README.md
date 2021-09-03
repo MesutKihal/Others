@@ -8,7 +8,7 @@ An easy to use GUI based QR Code generator.
 * Click generate and a QR code will be outputted in the same directory as the script.
 <h2>Requirements</h2>
 
-* qrcode
-* Pillow
+* qrcode==7.3
+* Pillow==8.3.1
 
 ![GitHub Logo](https://github.com/MesutKihal/Others/blob/main/qr_code_generator/image.PNG?raw=true)
